@@ -1,13 +1,6 @@
 # modules we'll use
 import pandas as pd
 import numpy as np
-'''
-x=[1,2,3,4,5]
-y=[0.2,0.6,0.8, 1, 0.9]
-plt.plot(x,y)
-plt.show()
-'''
-''''''
 # read in all our data
 post_read = pd.read_csv(r"G:\uta_acad\Sem 3\IE 6304 Data mining and analytics\Project\Postures.csv")
 df = post_read.iloc[:, 0:38]
