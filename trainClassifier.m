@@ -2,7 +2,7 @@ function [trainedClassifier, validationAccuracy] = trainClassifier(trainingData)
 % returns a trained classifier and its accuracy. 
 % Extract predictors and response
 % This code processes the data into the right shape for training the
-% model.
+% model
 % Convert input to table
 inputTable = array2table(trainingData, 'VariableNames', {'column_1', 'column_2', 'column_3', 'column_4', 'column_5', 'column_6', 'column_7', 'column_8', 'column_9', 'column_10', 'column_11', 'column_12', 'column_13'});
 
